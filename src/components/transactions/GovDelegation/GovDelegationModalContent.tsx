@@ -84,7 +84,7 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
   const tokens = [
     {
       address: governanceV3Config.votingAssets.stkAaveTokenAddress,
-      symbol: 'stkAAVE',
+      symbol: 'stkERGON',
       name: 'Staked AAVE',
       amount: stkAave,
       votingDelegatee: powers?.stkAaveVotingDelegatee,
@@ -192,8 +192,8 @@ export const GovDelegationModalContent: React.FC<GovDelegationModalContentProps>
         >
           <Trans>
             Choose how much voting/proposition power to give to someone else by delegating some of
-            your AAVE, stkAAVE or aAave balance. Your tokens will remain in your account, but your
-            delegate will be able to vote or propose on your behalf. If your AAVE, stkAAVE or aAave
+            your AAVE, stkERGON or eErgon balance. Your tokens will remain in your account, but your
+            delegate will be able to vote or propose on your behalf. If your AAVE, stkERGON or aAave
             balance changes, your delegate&apos;s voting/proposition power will be automatically
             adjusted.
           </Trans>

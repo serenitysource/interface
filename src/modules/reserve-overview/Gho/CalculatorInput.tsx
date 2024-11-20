@@ -37,7 +37,7 @@ interface CalculatorInputProps {
   title: string;
   value: number | null;
   disabled: boolean;
-  tokenSymbol: 'stkAAVE' | 'GHO';
+  tokenSymbol: 'stkERGON' | 'GHO';
   sliderMax: number;
   sliderMin?: number;
   downToXsm: boolean;

@@ -108,7 +108,7 @@ export const GhoIncentivesCard = ({
               alignItems: 'center',
             })}
           >
-            {withTokenIcon && <TokenIcon symbol="stkAAVE" sx={{ height: 14, width: 14, mr: 1 }} />}
+            {withTokenIcon && <TokenIcon symbol="stkERGON" sx={{ height: 14, width: 14, mr: 1 }} />}
             {useApyRange ? (
               <GhoBorrowApyRange
                 percentVariant={variant}

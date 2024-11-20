@@ -8,7 +8,7 @@ import { ESupportedTimeRanges } from '../TimeRangeSelector';
 dayjs.extend(duration);
 
 /**
- * This function recreates the logic that happens in GhoDiscountRateStrategy.sol to determine a user's discount rate for borrowing GHO based off of the amount of stkAAVE a user holds and a given term length
+ * This function recreates the logic that happens in GhoDiscountRateStrategy.sol to determine a user's discount rate for borrowing GHO based off of the amount of stkERGON a user holds and a given term length
  * This is repeated here so that we don't bombard the RPC with HTTP requests to do this calculation and read from on-chain logic.
  * NOTE: if the discount rate strategy changes on-chain, then this creates a maintenance issue and we'll have to update this.
  * @param borrowedGho - The hypothetical amount of GHO

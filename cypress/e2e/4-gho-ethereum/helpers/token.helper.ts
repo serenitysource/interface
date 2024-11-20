@@ -11,8 +11,8 @@ export interface Donors {
 }
 
 const donors: Donors = {
-  stkAAVE: {
-    name: 'stkAAVE',
+  stkERGON: {
+    name: 'stkERGON',
     donorWalletAddress: '0xaFDAbFb6227507fF6522b8a242168F6b5F353a6E',
     tokenAddress: '0x4da27a545c0c5B758a6BA100e3a049001de870f5',
   },

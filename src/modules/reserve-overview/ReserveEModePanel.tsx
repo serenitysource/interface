@@ -88,7 +88,7 @@ export const ReserveEModePanel: React.FC<ReserverEModePanelProps> = ({ reserve }
           <Trans>
             E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is
             enabled, you will have higher borrowing power over assets of the same E-mode category
-            which are defined by Aave Governance. You can enter E-Mode from your{' '}
+            which are defined by Ergon Governance. You can enter E-Mode from your{' '}
             <Link
               href={ROUTES.dashboard}
               sx={{ textDecoration: 'underline' }}

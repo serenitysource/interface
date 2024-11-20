@@ -124,7 +124,7 @@ export const DelegationTokenSelector = ({
           componentsProps={{ typography: { width: '100%' } }}
           label={
             <TokenRow
-              symbol={['AAVE', 'stkAAVE', 'aAAVE']}
+              symbol={['AAVE', 'stkERGON', 'aAAVE']}
               amount={Number(aave) + Number(stkAave) + Number(aAave)}
             />
           }
@@ -141,8 +141,8 @@ export const DelegationTokenSelector = ({
           value={DelegationTokenType.STKAAVE}
           control={<Radio size="small" />}
           componentsProps={{ typography: { width: '100%' } }}
-          label={<TokenRow symbol="stkAAVE" amount={stkAave} />}
-          data-cy={`delegate-token-stkAAVE`}
+          label={<TokenRow symbol="stkERGON" amount={stkAave} />}
+          data-cy={`delegate-token-stkERGON`}
         />
         <FormControlLabel
           value={DelegationTokenType.aAave}

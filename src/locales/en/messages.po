@@ -28,12 +28,12 @@ msgid ".JSON"
 msgstr ".JSON"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add <3/> stkAAVE</0> to borrow at <4/> (max discount)"
-msgstr "<0><1><2/></1>Add <3/> stkAAVE</0> to borrow at <4/> (max discount)"
+msgid "<0><1><2/></1>Add <3/> stkERGON</0> to borrow at <4/> (max discount)"
+msgstr "<0><1><2/></1>Add <3/> stkERGON</0> to borrow at <4/> (max discount)"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "<0><1><2/></1>Add stkAAVE</0> to see borrow rate with discount"
-msgstr "<0><1><2/></1>Add stkAAVE</0> to see borrow rate with discount"
+msgid "<0><1><2/></1>Add stkERGON</0> to see borrow rate with discount"
+msgstr "<0><1><2/></1>Add stkERGON</0> to see borrow rate with discount"
 
 #: src/components/Warnings/AMPLWarning.tsx
 msgid "<0>Ampleforth</0> is a rebasing asset. Visit the <1>documentation</1> to learn more."
@@ -115,8 +115,8 @@ msgid "AToken supply is not zero"
 msgstr "AToken supply is not zero"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Aave Governance"
-msgstr "Aave Governance"
+msgid "Ergon Governance"
+msgstr "Ergon Governance"
 
 #: src/modules/reserve-overview/AddTokenDropdown.tsx
 #: src/modules/reserve-overview/TokenLinkDropdown.tsx
@@ -128,8 +128,8 @@ msgid "Aave debt token"
 msgstr "Aave debt token"
 
 #: src/modules/governance/GovernanceTopPanel.tsx
-msgid "Aave is a fully decentralized, community governed protocol by the AAVE token-holders. AAVE token-holders collectively discuss, propose, and vote on upgrades to the protocol. AAVE token-holders (Ethereum network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
-msgstr "Aave is a fully decentralized, community governed protocol by the AAVE token-holders. AAVE token-holders collectively discuss, propose, and vote on upgrades to the protocol. AAVE token-holders (Ethereum network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
+msgid "Aave is a fully decentralized, community governed protocol by the ERGON token-holders. ERGON token-holders collectively discuss, propose, and vote on upgrades to the protocol. ERGON token-holders (Ethereum network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
+msgstr "Aave is a fully decentralized, community governed protocol by the ERGON token-holders. ERGON token-holders collectively discuss, propose, and vote on upgrades to the protocol. ERGON token-holders (Ethereum network only) can either vote themselves on new proposals or delagate to an address of choice. To learn more check out the Governance"
 
 #: src/modules/staking/StakingPanel.tsx
 msgid "Aave per month"
@@ -161,8 +161,8 @@ msgid "Activate Cooldown"
 msgstr "Activate Cooldown"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Add stkAAVE to see borrow APY with the discount"
-msgstr "Add stkAAVE to see borrow APY with the discount"
+msgid "Add stkERGON to see borrow APY with the discount"
+msgstr "Add stkERGON to see borrow APY with the discount"
 
 #: src/components/transactions/FlowCommons/Success.tsx
 msgid "Add to wallet"
@@ -625,8 +625,8 @@ msgid "Cannot disable E-Mode"
 msgstr "Cannot disable E-Mode"
 
 #: src/components/transactions/GovDelegation/GovDelegationModalContent.tsx
-msgid "Choose how much voting/proposition power to give to someone else by delegating some of your AAVE, stkAAVE or aAave balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your AAVE, stkAAVE or aAave balance changes, your delegate's voting/proposition power will be automatically adjusted."
-msgstr "Choose how much voting/proposition power to give to someone else by delegating some of your AAVE, stkAAVE or aAave balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your AAVE, stkAAVE or aAave balance changes, your delegate's voting/proposition power will be automatically adjusted."
+msgid "Choose how much voting/proposition power to give to someone else by delegating some of your AAVE, stkERGON or eErgon balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your AAVE, stkERGON or eErgon balance changes, your delegate's voting/proposition power will be automatically adjusted."
+msgstr "Choose how much voting/proposition power to give to someone else by delegating some of your AAVE, stkERGON or eErgon balance. Your tokens will remain in your account, but your delegate will be able to vote or propose on your behalf. If your AAVE, stkERGON or eErgon balance changes, your delegate's voting/proposition power will be automatically adjusted."
 
 #: src/modules/staking/BuyWithFiatModal.tsx
 msgid "Choose one of the on-ramp services"
@@ -933,8 +933,8 @@ msgstr "Download"
 
 #: src/components/transactions/Repay/CollateralRepayModalContent.tsx
 #: src/components/transactions/Swap/SwapModalContent.tsx
-msgid "Due to health factor impact, a flashloan is required to perform this transaction, but Aave Governance has disabled flashloan availability for this asset. Try lowering the amount or supplying additional collateral."
-msgstr "Due to health factor impact, a flashloan is required to perform this transaction, but Aave Governance has disabled flashloan availability for this asset. Try lowering the amount or supplying additional collateral."
+msgid "Due to health factor impact, a flashloan is required to perform this transaction, but Ergon Governance has disabled flashloan availability for this asset. Try lowering the amount or supplying additional collateral."
+msgstr "Due to health factor impact, a flashloan is required to perform this transaction, but Ergon Governance has disabled flashloan availability for this asset. Try lowering the amount or supplying additional collateral."
 
 #: src/components/Warnings/StETHCollateralWarning.tsx
 msgid "Due to internal stETH mechanics required for rebasing support, it is not possible to perform a collateral switch where stETH is the source token."
@@ -965,8 +965,8 @@ msgid "E-Mode increases your LTV for a selected category of assets up to<0/>. <1
 msgstr "E-Mode increases your LTV for a selected category of assets up to<0/>. <1>Learn more</1>"
 
 #: src/modules/reserve-overview/ReserveEModePanel.tsx
-msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Aave Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Aave V3 Technical Paper</2>."
-msgstr "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Aave Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Aave V3 Technical Paper</2>."
+msgid "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Ergon Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Aave V3 Technical Paper</2>."
+msgstr "E-Mode increases your LTV for a selected category of assets, meaning that when E-mode is enabled, you will have higher borrowing power over assets of the same E-mode category which are defined by Ergon Governance. You can enter E-Mode from your <0>Dashboard</0>. To learn more about E-Mode and applied restrictions in <1>FAQ</1> or <2>Aave V3 Technical Paper</2>."
 
 #: src/modules/governance/RepresentativesInfoPanel.tsx
 msgid "Edit"
@@ -1207,8 +1207,8 @@ msgid "Hide"
 msgstr "Hide"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "Holders of stkAAVE receive a discount on the GHO borrowing rate"
-msgstr "Holders of stkAAVE receive a discount on the GHO borrowing rate"
+msgid "Holders of stkERGON receive a discount on the GHO borrowing rate"
+msgstr "Holders of stkERGON receive a discount on the GHO borrowing rate"
 
 #: src/components/transactions/Borrow/BorrowAmountWarning.tsx
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
@@ -1269,8 +1269,8 @@ msgid "Interest rate strategy"
 msgstr "Interest rate strategy"
 
 #: src/components/infoTooltips/FixedAPYTooltip.tsx
-msgid "Interest rate that is determined by Aave Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
-msgstr "Interest rate that is determined by Aave Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgid "Interest rate that is determined by Ergon Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
+msgstr "Interest rate that is determined by Ergon Governance. This rate may be changed over time depending on the need for the GHO supply to contract/expand. <0>Learn more</0>"
 
 #: src/ui-config/errorMapping.tsx
 msgid "Invalid amount to burn"
@@ -1512,8 +1512,8 @@ msgstr "Migrate"
 
 #: src/layouts/MobileMenu.tsx
 #: src/layouts/MoreMenu.tsx
-msgid "Migrate to Aave V3"
-msgstr "Migrate to Aave V3"
+msgid "Migrate to Ergon V3"
+msgstr "Migrate to Ergon V3"
 
 #: src/components/TopInfoPanel/PageTitle.tsx
 msgid "Migrate to V3"
@@ -2813,8 +2813,8 @@ msgid "Use it to vote for or against active proposals."
 msgstr "Use it to vote for or against active proposals."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "Use your AAVE, stkAAVE, or aAave balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
-msgstr "Use your AAVE, stkAAVE, or aAave balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
+msgid "Use your ERGON, stkERGON, or eErgon balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
+msgstr "Use your ERGON, stkERGON, or eErgon balance to delegate your voting and proposition powers. You will not be sending any tokens, only the rights to vote and propose changes to the protocol. You can re-delegate or revoke power to self at any time."
 
 #: src/modules/dashboard/lists/SuppliedPositionsList/SuppliedPositionsListMobileItem.tsx
 msgid "Used as collateral"
@@ -2845,8 +2845,8 @@ msgid "User is trying to borrow multiple assets including a siloed one"
 msgstr "User is trying to borrow multiple assets including a siloed one"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
-msgid "Users who stake AAVE in Safety Module (i.e. stkAAVE holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkAAVE held. Use the calculator below to see GHO borrow rate with the discount applied."
-msgstr "Users who stake AAVE in Safety Module (i.e. stkAAVE holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkAAVE held. Use the calculator below to see GHO borrow rate with the discount applied."
+msgid "Users who stake AAVE in Safety Module (i.e. stkERGON holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkERGON held. Use the calculator below to see GHO borrow rate with the discount applied."
+msgstr "Users who stake AAVE in Safety Module (i.e. stkERGON holders) receive a discount on GHO borrow interest rate. The discount applies to 100 GHO for every 1 stkERGON held. Use the calculator below to see GHO borrow rate with the discount applied."
 
 #: src/modules/reserve-overview/ReserveConfiguration.tsx
 #: src/modules/reserve-overview/ReserveTopDetails.tsx
@@ -3018,8 +3018,8 @@ msgid "With a voting power of <0/>"
 msgstr "With a voting power of <0/>"
 
 #: src/modules/faucet/FaucetTopPanel.tsx
-msgid "With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
-msgstr "With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgid "With testnet Faucet you can get free assets to test the Ergon Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
+msgstr "With testnet Faucet you can get free assets to test the Ergon Protocol. Make sure to switch your wallet provider to the appropriate testnet network, select desired asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a testnet are not “real,” meaning they have no monetary value. <0>Learn more</0>"
 
 #: src/components/transactions/Withdraw/WithdrawAndSwitchModalContent.tsx
 #: src/components/transactions/Withdraw/WithdrawAndUnwrapActions.tsx
@@ -3129,8 +3129,8 @@ msgid "You don’t have enough funds in your wallet to repay the full amount. If
 msgstr "You don’t have enough funds in your wallet to repay the full amount. If you proceed to repay with your current amount of funds, you will still have a small borrowing position in your dashboard."
 
 #: src/modules/governance/DelegatedInfoPanel.tsx
-msgid "You have no AAVE/stkAAVE/aAave balance to delegate."
-msgstr "You have no AAVE/stkAAVE/aAave balance to delegate."
+msgid "You have no AAVE/stkERGON/aAave balance to delegate."
+msgstr "You have no AAVE/stkERGON/aAave balance to delegate."
 
 #: src/components/transactions/RateSwitch/RateSwitchModalContent.tsx
 msgid "You have not borrow yet using this currency"
@@ -3204,8 +3204,8 @@ msgid "Your info"
 msgstr "Your info"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your proposition power is based on your AAVE/stkAAVE balance and received delegations."
-msgstr "Your proposition power is based on your AAVE/stkAAVE balance and received delegations."
+msgid "Your proposition power is based on your AAVE/stkERGON balance and received delegations."
+msgstr "Your proposition power is based on your AAVE/stkERGON balance and received delegations."
 
 #: src/components/transactions/ClaimRewards/ClaimRewardsModalContent.tsx
 msgid "Your reward balance is 0"
@@ -3221,8 +3221,8 @@ msgid "Your voting info"
 msgstr "Your voting info"
 
 #: src/modules/governance/VotingPowerInfoPanel.tsx
-msgid "Your voting power is based on your AAVE/stkAAVE balance and received delegations."
-msgstr "Your voting power is based on your AAVE/stkAAVE balance and received delegations."
+msgid "Your voting power is based on your AAVE/stkERGON balance and received delegations."
+msgstr "Your voting power is based on your AAVE/stkERGON balance and received delegations."
 
 #: src/modules/dashboard/lists/SupplyAssetsList/WalletEmptyInfo.tsx
 msgid "Your {name} wallet is empty. Purchase or transfer assets or use <0>{0}</0> to transfer your {network} assets."
@@ -3318,8 +3318,8 @@ msgid "starts"
 msgstr "starts"
 
 #: src/modules/staking/GhoDiscountProgram.tsx
-msgid "stkAAVE holders get a discount on GHO borrow rate"
-msgstr "stkAAVE holders get a discount on GHO borrow rate"
+msgid "stkERGON holders get a discount on GHO borrow rate"
+msgstr "stkERGON holders get a discount on GHO borrow rate"
 
 #: src/modules/reserve-overview/Gho/GhoDiscountCalculator.tsx
 msgid "to"

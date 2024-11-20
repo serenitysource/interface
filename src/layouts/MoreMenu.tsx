@@ -63,7 +63,7 @@ export function MoreMenu() {
       >
         <MenuItem divider={true} component={Link} onClick={handleClose} href="/v3-migration">
           <Typography variant="subheader1">
-            <Trans>Migrate to Aave V3</Trans>
+            <Trans>Migrate to Ergon V3</Trans>
           </Typography>
         </MenuItem>
         {moreNavigation.map((item, index) => (

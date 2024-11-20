@@ -48,7 +48,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your voting power is based on your AAVE/stkAAVE balance and received
+                    Your voting power is based on your AAVE/stkERGON balance and received
                     delegations.
                   </Trans>
                 </Typography>
@@ -80,7 +80,7 @@ export function VotingPowerInfoPanel() {
               <>
                 <Typography variant="subheader2">
                   <Trans>
-                    Your proposition power is based on your AAVE/stkAAVE balance and received
+                    Your proposition power is based on your AAVE/stkERGON balance and received
                     delegations.
                   </Trans>
                 </Typography>

@@ -81,7 +81,7 @@ export const MigrationMarketCard: FC<MigrationMarketCardProps> = ({
             <Avatar src={networkConfig.networkLogoPath} sx={{ width: 20, height: 20 }} />
           }
         >
-          <Avatar src="/aave.svg" sx={{ width: 36, height: 36 }} />
+          <Avatar src="/ergonLogo.svg" sx={{ width: 36, height: 36 }} />
         </Badge>
         <Typography variant="subheader1" sx={{ ml: 5 }}>
           {formatMarketName(marketData)}
@@ -128,7 +128,7 @@ export const MigrationMarketCard: FC<MigrationMarketCardProps> = ({
                             />
                           }
                         >
-                          <Avatar src="/aave.svg" sx={{ width: 24, height: 24 }} />
+                          <Avatar src="/ergonLogo.svg" sx={{ width: 24, height: 24 }} />
                         </Badge>
                         <Typography variant="secondary14" sx={{ ml: 3 }}>
                           {`${market.marketTitle}${market.isFork ? ' Fork' : ''}`}

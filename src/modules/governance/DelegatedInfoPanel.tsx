@@ -65,7 +65,7 @@ const DelegatedPower: React.FC<DelegatedPowerProps> = ({
                 variant="subheader1"
               />
               <Typography variant="helperText" color="text.secondary">
-                AAVE + stkAAVE + aAAVE
+                AAVE + stkERGON + aAAVE
               </Typography>
             </Box>
           </Row>
@@ -100,7 +100,7 @@ const DelegatedPower: React.FC<DelegatedPowerProps> = ({
                 }
               >
                 <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-                  <TokenIcon symbol="stkAAVE" sx={{ width: 16, height: 16 }} />
+                  <TokenIcon symbol="stkERGON" sx={{ width: 16, height: 16 }} />
                   <FormattedNumber value={stkAavePower} variant="subheader1" />
                 </Box>
               </Row>
@@ -168,7 +168,7 @@ export const DelegatedInfoPanel = () => {
         </Typography>
         <Typography typography="description" sx={{ mt: 1 }} color="text.secondary">
           <Trans>
-            Use your AAVE, stkAAVE, or aAave balance to delegate your voting and proposition powers.
+            Use your ERGON, stkERGON, or eErgon balance to delegate your voting and proposition powers.
             You will not be sending any tokens, only the rights to vote and propose changes to the
             protocol. You can re-delegate or revoke power to self at any time.
           </Trans>
@@ -185,7 +185,7 @@ export const DelegatedInfoPanel = () => {
         </Typography>
         {disableButton ? (
           <Typography variant="description" color="text.muted" mt={6}>
-            <Trans>You have no AAVE/stkAAVE/aAave balance to delegate.</Trans>
+            <Trans>You have no AAVE/stkERGON/aAave balance to delegate.</Trans>
           </Typography>
         ) : (
           <>

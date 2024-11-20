@@ -51,20 +51,20 @@ export const GovernanceTopPanel = () => {
         <Box mb={4}>
           <ChainAvailabilityText wrapperSx={{ mb: 4 }} chainId={ChainId.mainnet} />
           <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-            <img src={`/aave.svg`} width="32px" height="32px" alt="" />
+            <img src={`/ergonLogo.svg`} width="32px" height="32px" alt="" />
             <Typography
               variant={downToXSM ? 'h2' : upToLG ? 'display1' : 'h1'}
               sx={{ ml: 2, mr: 3 }}
             >
-              <Trans>Aave Governance</Trans>
+              <Trans>Ergon Governance</Trans>
             </Typography>
           </Box>
 
           <Typography sx={{ color: '#8E92A3', maxWidth: '824px' }}>
             <Trans>
-              Aave is a fully decentralized, community governed protocol by the AAVE token-holders.
-              AAVE token-holders collectively discuss, propose, and vote on upgrades to the
-              protocol. AAVE token-holders (Ethereum network only) can either vote themselves on new
+              Aave is a fully decentralized, community governed protocol by the ERGON token-holders.
+              ERGON token-holders collectively discuss, propose, and vote on upgrades to the
+              protocol. ERGON token-holders (Ethereum network only) can either vote themselves on new
               proposals or delagate to an address of choice. To learn more check out the Governance
             </Trans>{' '}
             <Link

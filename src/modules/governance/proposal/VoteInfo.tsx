@@ -100,7 +100,7 @@ export function VoteInfo({ proposal }: VoteInfoProps) {
                     <Trans>Voting power</Trans>
                   </Typography>
                   <Typography variant="caption" color="text.secondary">
-                    (AAVE + stkAAVE)
+                    (AAVE + stkERGON)
                   </Typography>
                 </>
               }

@@ -10,7 +10,7 @@ const initAssets = {
     checkAmount: '1,000.00',
   },
   stkAave: {
-    asset: assets.staking.stkAAVE,
+    asset: assets.staking.stkERGON,
     amount: 1000,
     checkAmount: '1,000.00',
   },

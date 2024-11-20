@@ -130,7 +130,7 @@ export const GhoDiscountCalculator = () => {
     if (!stkAave)
       alertText = (
         <Typography variant="caption" component="p" color="warning.dark">
-          <Trans>Add stkAAVE to see borrow APY with the discount</Trans>
+          <Trans>Add stkERGON to see borrow APY with the discount</Trans>
         </Typography>
       );
 
@@ -157,7 +157,7 @@ export const GhoDiscountCalculator = () => {
                 <SvgIcon sx={{ fontSize: '14px', verticalAlign: 'middle', marginBottom: '3px' }}>
                   <AddIcon />
                 </SvgIcon>
-                <Trans>Add stkAAVE</Trans>
+                <Trans>Add stkERGON</Trans>
               </Typography>{' '}
               <Trans>to see borrow rate with discount</Trans>
             </Trans>
@@ -196,7 +196,7 @@ export const GhoDiscountCalculator = () => {
                     }}
                   />{' '}
                 </Trans>
-                stkAAVE
+                stkERGON
               </Typography>{' '}
               <Trans>
                 to borrow at{' '}
@@ -258,7 +258,7 @@ export const GhoDiscountCalculator = () => {
             title="Staked AAVE amount"
             value={stkAave}
             disabled={ghoLoadingData}
-            tokenSymbol="stkAAVE"
+            tokenSymbol="stkERGON"
             onValueChanged={(value) => setStkAave(value)}
             sliderMax={1000}
             downToXsm={downToXsm}
@@ -298,7 +298,7 @@ export const GhoDiscountCalculator = () => {
             title="Staked AAVE amount"
             value={stkAave}
             disabled={ghoLoadingData}
-            tokenSymbol="stkAAVE"
+            tokenSymbol="stkERGON"
             onValueChanged={(value) => setStkAave(value)}
             sliderMax={1000}
             downToXsm={downToXsm}
@@ -316,8 +316,8 @@ export const GhoDiscountCalculator = () => {
       </Typography>
       <Typography variant="caption" color="text.secondary" mb={6}>
         <Trans>
-          Users who stake AAVE in Safety Module (i.e. stkAAVE holders) receive a discount on GHO
-          borrow interest rate. The discount applies to 100 GHO for every 1 stkAAVE held. Use the
+          Users who stake AAVE in Safety Module (i.e. stkERGON holders) receive a discount on GHO
+          borrow interest rate. The discount applies to 100 GHO for every 1 stkERGON held. Use the
           calculator below to see GHO borrow rate with the discount applied.
         </Trans>
       </Typography>
@@ -366,7 +366,7 @@ const GhoDiscountParametersComponent: React.FC<{
             <Typography component="span" variant="secondary14" color="text.primary" sx={{ mx: 1 }}>
               <Trans>to</Trans>
             </Typography>{' '}
-            <TokenIcon symbol="stkAAVE" sx={{ fontSize: '14px', mr: 1 }} />1
+            <TokenIcon symbol="stkERGON" sx={{ fontSize: '14px', mr: 1 }} />1
           </Typography>
         </DiscountModelParameter>
         <DiscountModelParameter
@@ -401,7 +401,7 @@ const GhoDiscountParametersComponent: React.FC<{
           loading={loading}
         >
           <Stack direction="row" alignItems="center">
-            <TokenIcon symbol="stkAAVE" sx={{ fontSize: '14px', mr: 1 }} />
+            <TokenIcon symbol="stkERGON" sx={{ fontSize: '14px', mr: 1 }} />
             <FormattedNumber
               value={ghoReserveData.ghoMinDiscountTokenBalanceForDiscount}
               visibleDecimals={3}

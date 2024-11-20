@@ -350,8 +350,9 @@ export const SupplyWrappedTokenModalContent = ({
   );
 
   let maxAmountOfTokenInToSupply = tokenInBalance;
-  if (BigNumber(convertedTokenInAmount).isGreaterThan(tokenOutRemainingSupplyCap)) {
-    maxAmountOfTokenInToSupply = BigNumber(tokenOutRemainingSupplyCap)
+  //if (BigNumber(convertedTokenInAmount).isGreaterThan(tokenOutRemainingSupplyCap)) {
+  if ( new BigNumber(convertedTokenInAmount).isGreaterThan(tokenOutRemainingSupplyCap)) {  
+    maxAmountOfTokenInToSupply = new BigNumber(tokenOutRemainingSupplyCap)
       .dividedBy(exchangeRate || '0')
       .toString();
 
@@ -393,7 +394,7 @@ export const SupplyWrappedTokenModalContent = ({
 
   if (supplyTxState.success) {
     const successModalAmount = supplyingWrappedToken
-      ? BigNumber(amount)
+      ? new BigNumber(amount)
           .dividedBy(exchangeRate || '1')
           .toString()
       : amount;
